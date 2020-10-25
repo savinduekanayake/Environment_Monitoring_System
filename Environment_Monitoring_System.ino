@@ -225,17 +225,17 @@ void loop()
   }
   else {
 
-    //    if (counter1 > 1) {
-    //
-    //      for (int x = 1; x <= counter1; x++) {
-    //        Data_to_Sheets(No_of_Parameters, 0, 0, temperaturearray[x], humidityarray[x],  pressurearray[x], rainarray[x], altitudearray[x]);
-    //        delay(500);
-    //      }
-    //    } else {
+        if (counter1 > 1) {
+    
+          for (int x = 1; x <= counter1; x++) {
+            Data_to_Sheets(No_of_Parameters, 0, 0, temperaturearray[x], humidityarray[x],  pressurearray[x], rainarray[x], altitudearray[x]);
+            delay(500);
+          }
+        } else {
     Data_to_Sheets(No_of_Parameters, 0, 0, temperature, humidity, pressure, rain, altitude);
-    // }
+     }
 
-    // counter1 = 1;
+     counter1 = 1;
   }
 
 
