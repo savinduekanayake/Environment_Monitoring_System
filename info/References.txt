@@ -1,0 +1,7 @@
+Google Sheet of data uploading-
+https://docs.google.com/spreadsheets/d/1WZCQhjvzktvAOUlzxoFPSAMuRfAYjuLEpblb20CSIDA/edit#gid=0
+
+References-
+https://www.hackster.io/thatiotguy/sensor-data-upload-to-google-sheets-through-nodemcu-632358
+
+https://www.youtube.com/watch?v=cx4S_rcMrZc&t=571s
